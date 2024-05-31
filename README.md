@@ -1,4 +1,4 @@
-<div align = "center"> <h1> regular_tasks </h1>> </div>
+<div align = "center"> <h1> regular_tasks </h1> </div>
 
 This repository contains Flutter Widget tasks
 
@@ -82,12 +82,15 @@ This documentation provides a quick overview and usage examples to help get star
 
 <div align="left">
 
-<img src= "https://github.com/Zimil-Patel/minimal_habit_tracker/blob/main/snaps/img1-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/minimal_habit_tracker/blob/main/snaps/img2-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/minimal_habit_tracker/blob/main/snaps/img3-portrait.png" height = 510 width = 240>
+<img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/carousel/img1-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/carousel/img2-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/carousel/img3-portrait.png" height = 510 width = 240>
 
-<img src= "https://github.com/Zimil-Patel/minimal_habit_tracker/blob/main/snaps/img4-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/carousel/img4-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/carousel/img5-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
 
 
 ## Video Preview 🎥
+
+
+https://github.com/Zimil-Patel/regular_tasks/assets/112332000/b8bb3935-9c23-4a64-8401-d35af656910e
 
