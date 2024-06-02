@@ -2,7 +2,7 @@
 
 This repository contains Flutter Widget tasks
 
-# Carousel Slider
+# Carousel Slider [📂 (source)](https://github.com/Zimil-Patel/regular_tasks/tree/main/lib/tasks/carousel%20slider)
 
 A Flutter carousel slider widget, perfect for showcasing images, texts, or any custom widgets with various configuration options.
 
