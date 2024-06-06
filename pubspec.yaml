@@ -17,6 +17,10 @@ dependencies:
   cupertino_icons: ^1.0.6
   carousel_slider: any
   google_fonts: any
+  assets_audio_player: any
+  video_player: any
+  chewie: any
+  blurrycontainer: any
 
 dev_dependencies:
   flutter_test:
@@ -29,5 +33,6 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/backgrounds/
     - assets/
+    - assets/backgrounds/
+    - assets/audios/
