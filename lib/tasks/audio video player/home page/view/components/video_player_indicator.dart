@@ -22,7 +22,7 @@ class VideoPlayerIndicator extends StatelessWidget {
         color: Colors.white.withOpacity(0.4),
         borderRadius: BorderRadius.circular(16),
         child: AspectRatio(
-          aspectRatio: providerTrue.videoPlayer.value.aspectRatio,
+          aspectRatio: 2,
           child: Container(
             width: width,
             alignment: Alignment.center,
