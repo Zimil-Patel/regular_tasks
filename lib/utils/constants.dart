@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 const double defaultPadding = 10;
 
+late double height, width;
+
 const List quoteList = [
   {
     "quote":
