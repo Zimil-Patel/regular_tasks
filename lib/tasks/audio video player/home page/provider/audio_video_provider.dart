@@ -52,5 +52,6 @@ class AudioVideoProvider extends ChangeNotifier {
     )..initialize()..setVolume(0);
 
     chewieController = ChewieController(videoPlayerController: videoPlayer, autoPlay: false);
+
   }
 }
