@@ -8,18 +8,23 @@ class ApiCallingExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          elevation: 1,
+          shadowColor: Colors.black,
           centerTitle: false,
           title: const Text('API\'s'),
         ),
 
         body: Column(
           children: [
-            ListTile(
-              onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const UserApiHomePage(),));
-              },
-              tileColor: Theme.of(context).colorScheme.secondary,
-              title: const Text('Users API'),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: ListTile(
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const UserApiHomePage(),));
+                },
+                tileColor: Theme.of(context).colorScheme.onSecondary,
+                title: const Text('Users API'),
+              ),
             ),
           ],
         ),

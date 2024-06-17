@@ -6,7 +6,9 @@ class UserApiHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('User\'s data Form API'),
+        elevation: 1,
+        shadowColor: Colors.black,
+        title: const Text('User\'s data Form API'),
       ),
     );
   }
