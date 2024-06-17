@@ -21,6 +21,10 @@ dependencies:
   video_player: any
   chewie: any
   blurrycontainer: any
+  async_wallpaper: ^2.0.3
+  path_provider: any
+  flutter_wallpaper_manager: ^0.0.4
+  http: any
 
 dev_dependencies:
   flutter_test:
