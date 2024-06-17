@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:regular_tasks/tasks/api%20calling/users%20api/home%20page/view/user_api_home_page.dart';
+import 'package:regular_tasks/tasks/api%20calling/pages/posts%20api/view/posts_api_home_page.dart';
+import 'package:regular_tasks/tasks/api%20calling/pages/users%20api/home%20page/view/user_api_home_page.dart';
 
 class ApiCallingExample extends StatelessWidget {
   const ApiCallingExample({super.key});
@@ -16,6 +17,7 @@ class ApiCallingExample extends StatelessWidget {
 
         body: Column(
           children: [
+            // users data
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: ListTile(
@@ -24,6 +26,21 @@ class ApiCallingExample extends StatelessWidget {
                 },
                 tileColor: Theme.of(context).colorScheme.onSecondary,
                 title: const Text('Users API'),
+              ),
+            ),
+
+            // posts data
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: ListTile(
+                onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const PostsApiHomePage(),));
+                },
+                tileColor: Theme.of(context).colorScheme.onSecondary,
+                title: const Text('Posts API'),
               ),
             ),
           ],

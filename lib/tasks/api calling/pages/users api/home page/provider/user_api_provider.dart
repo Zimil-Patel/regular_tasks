@@ -17,7 +17,7 @@ class UserApiProvider extends ChangeNotifier{
 
   Future<void> getData() async {
     String json = await ApiService().callApi('https://jsonplaceholder.typicode.com/users');
-    dynamic data = await jsonDecode(json);
+    List data = await jsonDecode(json);
 
     // convert into object data
     _usersList = data.map((e) => UserModel.getFromJson(e)).toList();
