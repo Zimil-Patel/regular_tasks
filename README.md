@@ -147,12 +147,6 @@ For more detailed usage and examples, visit the [package page on pub.dev](https:
 https://github.com/Zimil-Patel/regular_tasks/assets/112332000/a808a4ad-07f3-4038-a993-c0a96d4b975d
 
 
-## Video Preview 🎥
-
-
-https://github.com/Zimil-Patel/regular_tasks/assets/112332000/b8bb3935-9c23-4a64-8401-d35af656910e
-
-
 # API Calling [📂 (source)](https://github.com/Zimil-Patel/regular_tasks/tree/main/lib/tasks/api%20calling)
 
 ### What is an API?
