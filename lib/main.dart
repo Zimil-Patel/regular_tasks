@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:regular_tasks/tasks/api%20calling/api_calling_example.dart';
+import 'package:regular_tasks/tasks/api%20calling/pages/pixabay%20api/provider/pixabary_provider.dart';
 import 'package:regular_tasks/tasks/api%20calling/pages/posts%20api/provider/post_api_provider.dart';
 import 'package:regular_tasks/tasks/api%20calling/pages/users%20api/home%20page/provider/user_api_provider.dart';
 import 'package:regular_tasks/tasks/async%20wallpaper/home%20page/provider/wallpaper_provider.dart';
@@ -18,6 +19,7 @@ void main(){
   WidgetsFlutterBinding.ensureInitialized();
   UserApiProvider userApiProvider = UserApiProvider();
   PostApiProvider postApiProvider = PostApiProvider();
+  PixabayProvider pixabayProvider = PixabayProvider();
 
   runApp(MultiProvider(
 
@@ -27,6 +29,7 @@ void main(){
         ChangeNotifierProvider(create: (context) => WallpaperProvider()),
         ChangeNotifierProvider(create: (context) => userApiProvider),
         ChangeNotifierProvider(create: (context) => postApiProvider),
+        ChangeNotifierProvider(create: (context) => pixabayProvider),
       ],
       child: const MyApp()));
 }
