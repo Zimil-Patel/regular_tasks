@@ -202,6 +202,52 @@ Check status codes and use try-catch blocks for robust error handling.
 https://github.com/Zimil-Patel/regular_tasks/assets/112332000/317ca4fb-3ac2-4d47-a73a-a4d73b38c6d0
 
 
+# Pxabay API Calling [📂 (source)](https://github.com/Zimil-Patel/regular_tasks/tree/main/lib/tasks/api%20calling)
+
+API Service
+
+Create a service to fetch data from the Pixabay API.
+
+``` dart
+// lib/services/api_service.dart
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import '../models/image_data.dart';
+
+class ApiService {
+  final String _apiKey = dotenv.env['PIXABAY_API_KEY']!;
+
+  Future<ImageData> fetchImages(String query) async {
+    final response = await http.get(
+      Uri.parse('https://pixabay.com/api/?key=$_apiKey&q=$query&image_type=photo'),
+    );
+
+    if (response.statusCode == 200) {
+      return ImageData.fromJson(json.decode(response.body));
+    } else {
+      throw Exception('Failed to load images');
+    }
+  }
+}
+```
+
+## App Screenshots
+
+<div align="left">
+
+<img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/pixabay/img1-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+
+## Video Preview 🎥
+
+
+https://github.com/Zimil-Patel/regular_tasks/assets/112332000/c91c7021-23de-4edc-be1a-8c5b12608fee
+
+
+
+
 
 
 
