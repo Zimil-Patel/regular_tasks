@@ -194,12 +194,14 @@ Check status codes and use try-catch blocks for robust error handling.
 
 <div align="left">
 
-<img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/carousel/img1-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/carousel/img2-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/carousel/img3-portrait.png" height = 510 width = 240>
+<img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/api/img1-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/api/img2-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/regular_tasks/blob/main/snaps/api/img3-portrait.png" height = 510 width = 240>
 
 </div>
 
 ## Video Preview 🎥
 
+
+https://github.com/Zimil-Patel/regular_tasks/assets/112332000/317ca4fb-3ac2-4d47-a73a-a4d73b38c6d0
 
 
 
